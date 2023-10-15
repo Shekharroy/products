@@ -1,0 +1,47 @@
+.MainSetion {
+    margin: 60px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.AsideCategoryList {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0 30px;
+}
+
+/* .AsideCategoryList button{
+    color: black;
+    font-size: 20px;
+    margin-bottom: 2rem;
+    border: none;
+    background: transparent;
+} */
+
+.ArticleProductsDetails {
+    width: 70%;
+}
+
+.ProductItem {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.Item {
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px black;
+}
+
+.NoData {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+}

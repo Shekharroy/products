@@ -1,0 +1,9 @@
+button{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    font-size: 20px;
+    margin-bottom: 2rem;
+    border: none;
+    background: transparent;
+}
